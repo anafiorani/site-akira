@@ -1,0 +1,218 @@
+.minha-navbar {
+    background-color: black;
+}
+
+.navbar .nav-link:hover {
+  color: red;
+}
+
+nav {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav ul li {
+    margin: 15px;
+}
+
+#home {
+    background: url('kaneda.jpg') center top/cover no-repeat;
+    text-align: left;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 20px;
+}
+
+body {
+    background-color: black;
+}
+
+h2 {
+    color: red;
+    align-self: flex-start;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    color:white;
+    align-self: flex-start;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: firebrick;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: red;
+}
+
+.personagens {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.card {
+    background: rgb(204, 0, 0);
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 14px;
+}
+
+.home {display: flex;
+    flex-direction: column; /* empilha H1 e H2 */
+    align-items: flex-start;
+}
+
+.home h1 {
+    color: red;
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 5px;
+    align-self: flex-start;
+    margin-left: 30px;
+    background: black;
+    padding: 20px 30px;  
+    display: inline-block;
+    margin: 0;
+}
+
+.home h2 {
+    color: black;
+    background: red;
+    padding: 5px 10px;
+    margin-top: 10;
+    align-self: flex-start;
+    margin-left: 20px;
+    font-size: 23px;
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imagens_akira {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px;
+}
+
+.imagens_akira img {
+    width: 600px;
+    border: 3px solid red;
+    border-radius: 12px;
+}
+
+.imagens_akira2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.imagens_akira2 img {
+    width: 600px;
+    border: 3px solid red;
+    border-radius: 12px;
+}
+
+table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+video {
+    display: block;
+    margin: 20px auto;
+}
+
+.caixa_form {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: #111;
+    color: white;
+}
+
+.caixa_form form {
+    text-align: center;
+}
+
+.caixa_form input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    background: #222;
+    color: white;
+    outline: none;
+    transition: 0.3s;
+    box-sizing: border-box;
+}
+
+.caixa_form button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background: red;
+    color: white;
+    text-align: center;
+}
+
+.footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.anime {
+    text-align: center;
+    margin-bottom: -10;
+}
+
+.premios {
+    text-align: center;
+}
+
+.feedback {
+    text-align: center;
+}
